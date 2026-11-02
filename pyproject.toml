@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "am19780-lorapeft_jd314"
+name = "am19780-online_distribution_drift_count_trace"
 version = "0.1.0"
 description = "统计各来源片段的贡献量与占比，标出LoRA 与参数高效微调研究员·线上分布漂移的检测上最主要的来源"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://am19780.github.io"
-Repository = "https://github.com/am19780/lorapeft_jd314"
-Issues = "https://github.com/am19780/lorapeft_jd314/issues"
+Repository = "https://github.com/am19780/online_distribution_drift_count_trace"
+Issues = "https://github.com/am19780/online_distribution_drift_count_trace/issues"
 
 [project.scripts]
-lorapeft_jd314 = "lorapeft_jd314:main"
+online_distribution_drift_count_trace = "online_distribution_drift_count_trace:main"
 
 [tool.setuptools]
-py-modules = ["lorapeft_jd314"]
+py-modules = ["online_distribution_drift_count_trace"]
